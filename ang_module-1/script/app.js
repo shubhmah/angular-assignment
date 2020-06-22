@@ -11,7 +11,7 @@
 		$scope.checkIfTooMuch = function () {
 			var str = $scope.string.split(',');
 			var len = str.length
-			for (var i=0; i<len; i++) {
+			for (var i=0; i<str.length; i++) {
 				if (str[i]=='' || str[i]==' ' ) {
 					len = len-1;
 				}
